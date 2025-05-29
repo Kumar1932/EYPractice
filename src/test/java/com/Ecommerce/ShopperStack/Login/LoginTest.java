@@ -24,6 +24,6 @@ public class LoginTest
 		res.then().assertThat().statusCode(200);
 		res.then().assertThat().contentType(ContentType.JSON);
 		String token=res.jsonPath().get("data.jwtToken");
-		System.out.println(token);//test
+		System.out.println(token);//test tet
 	}
 }
